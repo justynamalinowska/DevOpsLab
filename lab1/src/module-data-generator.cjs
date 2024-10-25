@@ -13,7 +13,7 @@ function randomEyeColor() {
 }
 
 fs.readFile(
-  "/Users/justynamalinowska/Documents/ReactLab/lab1/src/names.txt",
+  "./names.txt",
   "utf8",
   (err, data) => {
     if (err) {
