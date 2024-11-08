@@ -1,0 +1,11 @@
+FROM node:18-alpine
+WORKDIR /backend/
+
+COPY package.json /backend/
+COPY http_server.js /backend/
+
+EXPOSE 8080
+
+RUN npm install
+
+CMD ["node", "http_server.js"]
