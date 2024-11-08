@@ -15,6 +15,7 @@ function App() {
           eyes={person.eyes}
         />
       ))}
+      <button class="button" onclick='http://localhost:8080/'>Go to Backend</button>
     </div>
   );
 }
