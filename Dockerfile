@@ -6,7 +6,7 @@ COPY src/ /react-docker-example/src
 COPY package.json /react-docker-example/
 
 EXPOSE 3000
-azsdcrfvtgbyujhds
+
 RUN npm install
 
 CMD ["npm", "start"]
